@@ -1,0 +1,77 @@
+h1{
+  color: blueviolet;
+  text-align: center;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 60px;
+ }
+ .search-bar{
+  text-align: center;
+ }
+ .search-input{
+  padding: 18px;
+  border: none;
+  margin-right: 12px;
+  border-radius: 12px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: white;
+}
+
+h2{
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+}
+
+.search-btn{
+  padding: 18px;
+  border: none;
+  border-radius: 12px;
+  background-color: blue;
+}
+
+.weather-box{
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.58);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11.8px);
+-webkit-backdrop-filter: blur(11.8px);
+border: 1px solid rgba(255, 255, 255, 0.09);
+padding: 150px;
+margin-top: 55px;
+margin-left: 200px;
+margin-right: 200px;
+}
+
+.forecast-day {
+  font-weight: bold;
+}
+
+.forecast-max {
+  color: red;
+  font-weight: bold;
+}
+
+.forecast-min {
+  color: blue;
+  font-style: italic;
+}
+
+.card {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+}
+
